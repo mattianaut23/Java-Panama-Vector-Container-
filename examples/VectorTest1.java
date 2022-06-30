@@ -19,16 +19,16 @@ public class VectorTest1 {
         }
 }
     
-    /*public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         float  a[] = {1,1,1,1,1,1,1,1};
         float  b[] = {1,1,1,1,1,1,1,1};
         float[] x = new float[8];
 
         vectorComputation(a,b,x);
-        for(float e : x)
-            System.out.println(e);
+        /*for(float e : x)
+            System.out.println(e);*/
 
-    }*/
+    }
 
     
 
