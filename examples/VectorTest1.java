@@ -12,7 +12,7 @@ public class VectorTest1 {
             //var vb = FloatVector.fromArray(SPECIES, b, i, m);
             //var vc = va.mul(va).
             //            add(vb.mul(vb)).
-                        neg();
+             //           neg();
             //vc.intoArray(c, i, m);
           System.out.println("Test");
           System.out.println(m);
