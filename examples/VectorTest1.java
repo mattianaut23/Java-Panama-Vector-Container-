@@ -10,7 +10,7 @@ public class VectorTest1 {
             var d = SPECIES.length();
             var e = SPECIES;
             // FloatVector va, vb, vc;
-            //var va = FloatVector.fromArray(SPECIES, a, i, m);
+            var va = FloatVector.fromArray(SPECIES, a, i, m);
             //var vb = FloatVector.fromArray(SPECIES, b, i, m);
             //var vc = va.mul(va).
             //            add(vb.mul(vb)).
@@ -20,6 +20,7 @@ public class VectorTest1 {
           System.out.println(m);
           System.out.println(d);
           System.out.println(e);
+          System.out.println(va);
         }
 }
     
