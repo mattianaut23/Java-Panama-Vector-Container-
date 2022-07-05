@@ -8,6 +8,7 @@ public class VectorTest1 {
         for (int i = 0; i < a.length; i += SPECIES.length()) {
             var m = SPECIES.indexInRange(i, a.length);
             var d = SPECIES.length();
+            var e = SPECIES;
             // FloatVector va, vb, vc;
             //var va = FloatVector.fromArray(SPECIES, a, i, m);
             //var vb = FloatVector.fromArray(SPECIES, b, i, m);
@@ -18,6 +19,7 @@ public class VectorTest1 {
           System.out.println("Test");
           System.out.println(m);
           System.out.println(d);
+          System.out.println(e);
         }
 }
     
