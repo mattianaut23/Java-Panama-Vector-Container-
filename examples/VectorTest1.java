@@ -7,7 +7,7 @@ public class VectorTest1 {
     static void vectorComputation(float[] a, float[] b, float[] c) {
         for (int i = 0; i < a.length; i += SPECIES.length()) {
             var m = SPECIES.indexInRange(i, a.length);
-            var b = SPECIES.length();
+            var d = SPECIES.length();
             // FloatVector va, vb, vc;
             //var va = FloatVector.fromArray(SPECIES, a, i, m);
             //var vb = FloatVector.fromArray(SPECIES, b, i, m);
@@ -17,7 +17,7 @@ public class VectorTest1 {
             //vc.intoArray(c, i, m);
           System.out.println("Test");
           System.out.println(m);
-          System.out.println(b);
+          System.out.println(d);
         }
 }
     
