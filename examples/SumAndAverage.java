@@ -7,9 +7,10 @@ public class SumAndAverage {
       static void SumAndAverageComputation(float[] a) {
       
             //int sum = 0;
-            for (int i=0; i < SPECIES.loopBound(a.length); i += SPECIES.length()) {       
-              var b = a.add(a[i]);
-              System.out.println(b);
+            for (int i=0; i < SPECIES.loopBound(a.length); i += SPECIES.length()) {    
+              FloatVector va = FloatVector.fromArray(SPECIES, a, i);    
+              FloatVector vc = va.add(a[i]);    
+              System.out.println(vc);
             }
             
       }
