@@ -23,7 +23,7 @@ public class SumAndAverage {
       
       public static void main(String[] args) throws Exception {
       
-      float a[] = {1};
+      float a[] = {1,2};
       SumAndAverageComputation(a);
       
       }
