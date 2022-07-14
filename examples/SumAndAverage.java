@@ -11,7 +11,7 @@ public class SumAndAverage {
               FloatVector va = FloatVector.fromArray(SPECIES, a, i);
               System.out.println(va);                                   // 1 2 3 4 5 6 7 8
               va.intoArray(a,0);                 
-              System.out.println(va);                                   // 2 3 4 5 6 7 8 9
+              System.out.println(a);                                   // 2 3 4 5 6 7 8 9
             }
             
       }
