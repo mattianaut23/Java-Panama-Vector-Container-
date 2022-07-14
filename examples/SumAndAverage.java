@@ -7,11 +7,12 @@ public class SumAndAverage {
       static void SumAndAverageComputation(float[] a) {
       
             int sum = 0;
+            float b[];
             for (int i=0; i < SPECIES.loopBound(a.length); i += SPECIES.length()) {    
               FloatVector va = FloatVector.fromArray(SPECIES, a, i);
               System.out.println(va);                                   // 1 2 3 4 5 6 7 8
-              va.intoArray(a,0);                 
-              System.out.println(a);                                   // 2 3 4 5 6 7 8 9
+              va.intoArray(b,1);                 
+              System.out.println(b);                                   // 2 3 4 5 6 7 8 9
             }
             
       }
