@@ -8,15 +8,13 @@ public class SumAndAverage {
       
             int sum = 0;
             float b[] = {0,0,0,0,0,0,0,0,0,0};
-            FloatVector va = FloatVector.fromArray(SPECIES, a, i);
-            va.intoArray(b,0);
-            System.out.println(b);  
-            /*for (int i=0; i < SPECIES.loopBound(a.length); i += SPECIES.length()) {    
+          
+            for (int i=0; i < SPECIES.loopBound(a.length); i += SPECIES.length()) {    
               FloatVector va = FloatVector.fromArray(SPECIES, a, i);
               System.out.println(va);                                   // 1 2 3 4 5 6 7 8
-              va.intoArray(b,-7);                 
+              va.intoArray(b,i);                 
               System.out.println(b);                                   // 2 3 4 5 6 7 8 9
-            }*/
+            }
             
       }
       
