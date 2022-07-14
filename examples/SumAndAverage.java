@@ -9,9 +9,9 @@ public class SumAndAverage {
             //int sum = 0;
             for (int i=0; i < SPECIES.loopBound(a.length); i += SPECIES.length()) {    
               FloatVector va = FloatVector.fromArray(SPECIES, a, i);
-              System.out.println(va);
-              //FloatVector vc = va.add(a[i]);    
-              //System.out.println(vc);
+              System.out.println(va);                                   // 1 2 3 4 5 6 7 8
+              FloatVector vc = va.add(a[i]);    
+              System.out.println(vc);                                   // 2 3 4 5 6 7 8
             }
             
       }
