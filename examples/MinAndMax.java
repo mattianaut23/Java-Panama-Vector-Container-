@@ -8,7 +8,7 @@ public class MinAndMax {
                   
              for (int i = 0; i < SPECIES.loopBound(a.length); i += SPECIES.length()) {
                    FloatVector va = FloatVector.fromArray(SPECIES, a, i);                 
-                   FloatVector vb = va.min(3.0);
+                   FloatVector vb = va.min(3);
                    System.out.println(vb);
              }
            
