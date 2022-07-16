@@ -7,8 +7,7 @@ public class MinAndMax {
       static void MinAndMaxComputation(float[] a) {
                   
              for (int i = 0; i < a.length; i ++ ) {
-                   VectorMask<Float> m = SPECIES.indexInRange(i, a.length);
-                   FloatVector va = FloatVector.fromArray(SPECIES, a, i, m);                
+                   FloatVector va = FloatVector.fromArray(SPECIES, a, i);                
                    float f = va.lane(i);
                    System.out.println(f);
              }
