@@ -11,7 +11,7 @@ public class MinAndMax {
                    VectorMask<Float> m = SPECIES.indexInRange(i, a.length);
                    FloatVector va = FloatVector.fromArray(SPECIES, a, i, m);                
                    FloatVector vb = va.min(1);
-                   System.out.println(va);
+                   System.out.println(vb);
              }
            
       }
