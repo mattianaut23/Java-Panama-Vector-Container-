@@ -19,7 +19,7 @@ public class MinAndMax {
       
       public static void main(String[] args) throws Exception {
       
-      float a[] = {3,2};
+      float a[] = {3,0};
       MinAndMaxComputation(a);
       
       }
