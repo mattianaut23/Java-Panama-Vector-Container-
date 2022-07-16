@@ -8,9 +8,12 @@ public class MinAndMax {
                   
              for (int i = 0; i < SPECIES.loopBound(a.length); i ++ ) {
                    FloatVector va = FloatVector.fromArray(SPECIES, a, i);                
-                   float f = va.lane(i);
                    System.out.println(f);
              }
+            
+            for (int j = 0; j < va.length ; j++) {
+                  System.out.println(va.lane(i));
+            }
            
       }
       
