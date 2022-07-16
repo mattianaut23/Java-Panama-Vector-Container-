@@ -6,7 +6,7 @@ public class MinAndMax {
       
       static void MinAndMaxComputation(float[] a) {
                   
-             for (int i = 0; i < SPECIES.loopBound(a.length); i += SPECIES.length() ) {
+             for (int i = 0; i < SPECIES.loopBound(a.length); i ++ ) {
                    FloatVector va = FloatVector.fromArray(SPECIES, a, i);                
                    float f = va.lane(i);
                    System.out.println(f);
