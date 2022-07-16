@@ -7,10 +7,12 @@ public class MinAndMax {
       static void MinAndMaxComputation(float[] a) {
                   
             System.out.println("test1");
-             for (int i = 0; i < SPECIES.loopBound(a.length); i += SPECIES.length()) {
+             for (int i = 0; i < a.length; i += SPECIES.length()) {
+                   VectorMask<Float> m = SPECIES.indexInRange(i, a.length);
+                   FloatVector va = FloatVector.fromArray(SPECIES, a, i, m); 
                    //FloatVector va = FloatVector.fromArray(SPECIES, a, i);                 
                    //FloatVector vb = va.min(1);
-                   System.out.println("test2");
+                   System.out.println(va);
              }
            
       }
