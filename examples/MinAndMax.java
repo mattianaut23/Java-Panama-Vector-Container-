@@ -6,10 +6,10 @@ public class MinAndMax {
       
       static void MinAndMaxComputation(float[] a) {
                   
-            System.out.println("test");
+            System.out.println("test1");
              for (int i = 0; i < SPECIES.loopBound(a.length); i += SPECIES.length()) {
-                   FloatVector va = FloatVector.fromArray(SPECIES, a, i);                 
-                   FloatVector vb = va.min(1);
+                   //FloatVector va = FloatVector.fromArray(SPECIES, a, i);                 
+                   //FloatVector vb = va.min(1);
                    System.out.println("test");
              }
            
