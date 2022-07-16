@@ -12,7 +12,7 @@ public class MinAndMax {
              }
             
             for (int j = 0; j < va.length ; j++) {
-                  System.out.println(va.lane(i));
+                  System.out.println(va.lane(j));
             }
            
       }
